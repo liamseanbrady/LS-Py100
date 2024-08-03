@@ -20,16 +20,16 @@
 # Caveats: Use very simple constructs (i.e., no `else` allowed). The Python `chr` built-in is allowed.
 
 # Global constants
-Chr_line_start = "chr: "
-Asc_line_start = "asc: "
-Asc_range_beginning = 32
-Asc_range_ending = 127
-Largest_asc_number_width = len(str(Asc_range_ending))
-Ascii_chars_per_line = 16
+CHR_LINE_START = "chr: "
+ASC_LINE_START = "asc: "
+ASC_RANGE_BEGINNING = 32
+ASC_RANGE_ENDING = 127
+LARGEST_ASC_NUMBER_WIDTH = len(str(Asc_range_ending))
+ASCII_CHARS_PER_LINE = 16
 
 # Global variables
-current_chr_string = Chr_line_start
-current_asc_string = Asc_line_start
+current_chr_string = CHR_LINE_START
+current_asc_string = ASCII_CHARS_PER_LINE
 ascii_numbers_processed = 0
 
 # Loop through range 32 to 128 (exclusive)
